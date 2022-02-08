@@ -10,6 +10,8 @@
     "--socket=wayland",
     "--device=dri",
     "--share=ipc",
+    "--share=network",
+    "--filesystem=home",
     "--env=G_MESSAGES_DEBUG=none",
     "--env=RUST_BACKTRACE=1"
   ],
