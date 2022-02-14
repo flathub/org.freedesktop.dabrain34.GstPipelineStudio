@@ -20,6 +20,22 @@
   },
   "modules": [
     {
+      "name": "gstreamer",
+      "buildsystem": "meson",
+      "builddir": true,
+      "config-opts": [
+          "-Ddoc=disabled"
+      ],
+      "sources": [
+          {
+              "type": "git",
+              "tag": "1.20.0",
+              "url": "https://gitlab.freedesktop.org/gstreamer/gstreamer.git",
+              "disable-submodules": true
+          }
+      ]
+    },
+    {
       "name": "gst_pipeline_studio",
       "buildsystem": "meson",
       "sources": [
