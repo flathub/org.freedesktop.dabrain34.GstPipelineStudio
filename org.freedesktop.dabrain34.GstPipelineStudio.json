@@ -1,7 +1,7 @@
 {
   "app-id": "org.freedesktop.dabrain34.GstPipelineStudio",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "41",
+  "runtime-version": "43",
   "sdk": "org.gnome.Sdk",
   "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
   "command": "gst_pipeline_studio",
@@ -29,7 +29,8 @@
       "sources": [
           {
               "type": "git",
-              "tag": "1.20.1",
+              "tag": "1.20.4",
+              "commit": "642730bd67d3c23ac68bd328fbddd191a7a43f25",
               "url": "https://gitlab.freedesktop.org/gstreamer/gstreamer.git",
               "disable-submodules": true
           }
