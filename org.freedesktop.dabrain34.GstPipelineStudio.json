@@ -3,7 +3,9 @@
   "runtime": "org.gnome.Platform",
   "runtime-version": "43",
   "sdk": "org.gnome.Sdk",
-  "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
+  "sdk-extensions": [
+    "org.freedesktop.Sdk.Extension.rust-stable"
+  ],
   "command": "gst_pipeline_studio",
   "finish-args": [
     "--socket=fallback-x11",
@@ -24,16 +26,16 @@
       "buildsystem": "meson",
       "builddir": true,
       "config-opts": [
-          "-Ddoc=disabled"
+        "-Ddoc=disabled"
       ],
       "sources": [
-          {
-              "type": "git",
-              "tag": "1.20.4",
-              "commit": "642730bd67d3c23ac68bd328fbddd191a7a43f25",
-              "url": "https://gitlab.freedesktop.org/gstreamer/gstreamer.git",
-              "disable-submodules": true
-          }
+        {
+          "type": "git",
+          "tag": "1.20.7",
+          "commit": "e2107f0a0fff902ac7f184bf96150cdc49ccf156",
+          "url": "https://gitlab.freedesktop.org/gstreamer/gstreamer.git",
+          "disable-submodules": true
+        }
       ]
     },
     {
@@ -42,8 +44,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://gitlab.freedesktop.org/dabrain34/GstPipelineStudio/uploads/268cd2fa0c9c977c02bd900665b22e7f/gst_pipeline_studio-0.2.3.tar.xz",
-          "sha256": "39ef16a655d0b791cde4243427330be4c201c4b601bddb03abc5e002ad17bae5"
+          "url": "https://gitlab.freedesktop.org/dabrain34/GstPipelineStudio/uploads/9673d6a992950c2a1e1c8d7e7499a1b8/gst_pipeline_studio-0.3.1.tar.xz",
+          "sha256": "9dc3be331078d3c40ee5baa6fad82c0f6dc227a6e968a3e9e6d0f2cb44382660"
         }
       ]
     }
