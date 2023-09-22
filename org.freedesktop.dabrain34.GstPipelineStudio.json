@@ -44,8 +44,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://gitlab.freedesktop.org/dabrain34/GstPipelineStudio/uploads/e99831880d960fd119da142c55892ab1/gst_pipeline_studio-0.3.2.tar.xz",
-          "sha256": "3be36e8b4041fc87e269685db93a2a73decd4ae548cee87d0c200a1d90d7b7d8"
+          "url": "https://gitlab.freedesktop.org/dabrain34/GstPipelineStudio/uploads/b25a5d9dcc810a85e7776547453fb170/gst_pipeline_studio-0.3.3.tar.xz",
+          "sha256": "af8e9702c4729b0324bb3ded5f9d55c26f1e670b8ad690669448c31a8e7ef732"
         }
       ]
     }
