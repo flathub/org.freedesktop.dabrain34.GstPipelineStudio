@@ -6,7 +6,7 @@
   "sdk-extensions": [
     "org.freedesktop.Sdk.Extension.rust-stable"
   ],
-  "command": "gst_pipeline_studio",
+  "command": "gst-pipeline-studio",
   "finish-args": [
     "--socket=fallback-x11",
     "--socket=wayland",
@@ -39,13 +39,13 @@
       ]
     },
     {
-      "name": "gst_pipeline_studio",
+      "name": "gst-pipeline-studio",
       "buildsystem": "meson",
       "sources": [
         {
           "type": "archive",
-          "url": "https://gitlab.freedesktop.org/dabrain34/GstPipelineStudio/uploads/74f6577481100b2969e5ef5840073598/gst_pipeline_studio-0.3.4.tar.xz",
-          "sha256": "9238322528da662f4fddd5a75b7ed6e3802449d8e0110017e9ff118c4a16550a"
+          "url": "https://gitlab.freedesktop.org/dabrain34/GstPipelineStudio/uploads/3c81608df78ff2895228facff43c3345/gst-pipeline-studio-0.3.5.tar.xz",
+          "sha256": "13a2db9f6e92268ef900a6c8ee99611bc679db1d6c0e145293bf9e699cba0f3e"
         }
       ]
     }
