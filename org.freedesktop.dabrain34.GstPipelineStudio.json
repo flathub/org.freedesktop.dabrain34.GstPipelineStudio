@@ -32,8 +32,8 @@
       "sources": [
         {
           "type": "git",
-          "tag": "1.20.7",
-          "commit": "e2107f0a0fff902ac7f184bf96150cdc49ccf156",
+          "tag": "1.24.9",
+          "commit": "b309f90bfde36e6d175b70bfa0c941f2829dd6a5",
           "url": "https://gitlab.freedesktop.org/gstreamer/gstreamer.git",
           "disable-submodules": true
         }
@@ -45,8 +45,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://gitlab.freedesktop.org/dabrain34/GstPipelineStudio/uploads/3c81608df78ff2895228facff43c3345/gst-pipeline-studio-0.3.5.tar.xz",
-          "sha256": "13a2db9f6e92268ef900a6c8ee99611bc679db1d6c0e145293bf9e699cba0f3e"
+          "url": "https://gitlab.freedesktop.org/-/project/12908/uploads/33007b623338e81d6783279323e3ef83/gst-pipeline-studio-0.3.6.tar.xz",
+          "sha256": "6eacf73f26f07c4492a79e2cf28f94bc1bdf3bf8b9df5d976ecbeac3c5f8510e"
         }
       ]
     }
