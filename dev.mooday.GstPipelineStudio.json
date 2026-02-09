@@ -1,0 +1,55 @@
+{
+  "app-id": "dev.mooday.GstPipelineStudio",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "47",
+  "sdk": "org.gnome.Sdk",
+  "sdk-extensions": [
+    "org.freedesktop.Sdk.Extension.rust-stable"
+  ],
+  "command": "gst-pipeline-studio",
+  "finish-args": [
+    "--socket=fallback-x11",
+    "--socket=wayland",
+    "--device=shm",
+    "--device=all",
+    "--share=ipc",
+    "--share=network",
+    "--filesystem=home",
+    "--env=G_MESSAGES_DEBUG=none",
+    "--env=RUST_BACKTRACE=1"
+  ],
+  "build-options": {
+    "append-path": "/usr/lib/sdk/rust-stable/bin"
+  },
+  "modules": [
+    {
+      "name": "gstreamer",
+      "buildsystem": "meson",
+      "builddir": true,
+      "config-opts": [
+        "-Ddoc=disabled",
+        "-Ddevtools=disabled"
+      ],
+      "sources": [
+        {
+          "type": "git",
+          "tag": "1.26.8",
+          "commit": "16d77e12ad213ef24e76a8cc34d347b8221c9975",
+          "url": "https://gitlab.freedesktop.org/gstreamer/gstreamer.git",
+          "disable-submodules": true
+        }
+      ]
+    },
+    {
+      "name": "gst-pipeline-studio",
+      "buildsystem": "meson",
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://gitlab.freedesktop.org/-/project/12908/uploads/0e1b03126e1f05cf4266b58f9ff07707/gst-pipeline-studio-0.4.0.tar.xz",
+          "sha256": "8fc3afaa55c7d4646b90c00fe1ab3e4081c1943b93c45fd0f6b35d6882167981"
+        }
+      ]
+    }
+  ]
+}
